@@ -1,0 +1,4 @@
+# 기존 venv에 추가 설치합니다. 기존 AI/Whisper 패키지는 유지합니다.
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.18,<1

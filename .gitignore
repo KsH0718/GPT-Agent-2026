@@ -1,0 +1,45 @@
+# Credentials and personal files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+*recovery*codes*
+# Rebuildable environments and output
+venv/
+.venv/
+__pycache__/
+*.pyc
+build/
+build_backup*/
+.dart_tool/
+.gradle/
+.kotlin/
+node_modules/
+ephemeral/
+runtime/
+submission/
+logs/
+*.log
+# Private working data
+data/
+uploads/
+output/
+audio/
+ffmpeg/
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.zip
+*.7z
+*.lnk
+.idea/
+.vscode/
+*.iml
+local.properties
+.flutter-plugins*
